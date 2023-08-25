@@ -1,0 +1,67 @@
+            /* Styling for the salah recorder form */
+            #salah-recorder-form {
+                max-width: 450px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+            }
+
+            #salah-recorder-form button{
+                max-width: 250px;
+                width: 100%;
+            
+            }
+
+            .salah-row {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                justify-content: center;
+            }
+
+            .salah-label {
+                flex-basis: 100px;
+                font-weight: bold;
+            }
+
+            .preloader {
+                width: 20px;
+                height: 20px;
+                vertical-align: middle;
+            }
+
+            .mark-as-read.success {
+                background-color: #5cb85c;
+                color: white;
+                cursor: default;
+            }
+
+            /* ... Your existing CSS styles ... */
+
+            .read {
+                color: green;
+                font-weight: bold;
+            }
+
+            .not-read {
+                color: orange;
+                font-weight: bold;
+            }
+
+            table.salah-history {
+                background-color: #f9f9f9;
+            }
+
+            table.salah-history th {
+                background-color: green;
+                color: white;
+            }
+
+            table.salah-history td {
+                text-align: center;
+            }
+            .text-center{
+                text-align: center;
+            }
